@@ -1,2 +1,2 @@
-Trying to learn Android (Kotlin)
+Learning Android (Kotlin)
 =================================
