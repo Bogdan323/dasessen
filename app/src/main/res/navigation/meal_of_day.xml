@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mealOfDay"
+    app:startDestination="@id/mealOfTheDay">
+
+    <fragment
+        android:id="@+id/mealOfTheDay"
+        android:name="com.example.cupcake.fragments.mealofday.MealOfDayFragment"
+        android:label="Meal of Day"
+        tools:layout="@layout/fragment_meal_of_day" />
+
+</navigation>

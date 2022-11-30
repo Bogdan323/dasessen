@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/recipes">
+
+    <include app:graph="@navigation/recipes"/>
+    <include app:graph="@navigation/favourite_recipes"/>
+    <include app:graph="@navigation/meal_of_day"/>
+
+</navigation>
