@@ -1,2 +1,2 @@
-Learning Android (Kotlin)
+Small Recipe Android App (Kotlin)
 =================================
